@@ -1,5 +1,4 @@
-import PyQt5
-from formlayout import fedit
+import formlayout
 
 formdata = [('Team Number'),
             ('Match Number', 0),
@@ -13,4 +12,4 @@ formdata = [('Team Number'),
             ('Shots Fired', 0),
             ('Shots Made', 0),
             ]
-fedit(formdata, title="Red Alliance: Match Data", comment="FRC Team <b>283's</b> Red Alliance System!")
+formlayout.fedit(formdata, title="Red Alliance: Match Data", comment="FRC Team <b>283's</b> Red Alliance System!")

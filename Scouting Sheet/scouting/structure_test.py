@@ -1,6 +1,6 @@
 import csv
 
-csv_file = csv.reader(open("C:\\Users\\FRC_STANDARD_USER\Desktop\\Python Development\\Python Development Repository\\Development Repo\\Scouting Sheet\\raw_scouting_data.csv"), delimiter="," )
+csv_file = csv.reader(open("C:\\Users\\FRC_STANDARD_USER\\Desktop\\Python Development\\Python Development Repository\\Development Repo\\Scouting Sheet\\raw_scouting_data.csv"), delimiter="," )
 print("READER_STRUCTURE")
 data = [] #Data accessible by data[row_index]['column name']
 temporary_row = {} #Dictionary used to build rows before appending them
@@ -32,7 +32,7 @@ def to_html_table(data, header, html_path):
     for row in data: #Goes through each row
         html_file.write("<tr>")
         for cell in row:
-            html_file.write("<td>" + row[int(cell)] + "</td>")
+            html_file.write("<td>" + row[cell] + "</td>")
         html_file.write("</tr>")
     html_file.write("</table></body></html>")
     html_file.close()
