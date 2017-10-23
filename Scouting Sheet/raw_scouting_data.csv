@@ -1,0 +1,275 @@
+Timestamp,Team Number,Match Number,Break baseline,Fuel scored low boiler,Fuel scored high boiler,Gear placed on spike,Additional comments,Primary Scoring Location,Fuel Accumulated,Gears placed on spike,How is fuel loaded into the robot?,How are gears loaded into the robot?,Climbing,Additional Comments?,Pilot data
+3/24/2017 11:41:10,281,6,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s), Trouble capturing rope",Horrible pilot ,"Dropped gear out of ship, Deployed rope late"
+3/24/2017 13:10:09,281,15,No,0,0,No,,Does not score Fuel,,3,Does not load fuel,Player station,"Touched sensor, Locked in place, Fast climb (<10s)",,Strong pilot
+3/24/2017 16:37:53,281,34,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s), Trouble capturing rope",,Strong pilot
+3/24/2017 11:59:06,364,8,No,0,0,No,Droped gear,Does not score Fuel,0,2,Does not load fuel,Player station,"Touched sensor, Locked in place, Fast climb (<10s)",Play some defense ,
+3/24/2017 12:17:58,364,8,No,0,0,No,Droped gear,Does not score Fuel,0,2,Does not load fuel,Player station,"Touched sensor, Locked in place, Fast climb (<10s)",Play some defense ,
+3/24/2017 14:34:10,364,18,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Floor, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",Piolet forgot to pull gear up,
+3/24/2017 17:36:43,364,41,Yes,0,1,No,,Does not score Fuel,0,1,Does not load fuel,Player station,"Touched sensor, Locked in place, Fast climb (<10s)",,Strong pilot
+3/24/2017 12:10:02,456,9,Yes,0,0,No,,Does not score Fuel,0,0,Player station,"Player station, Inefficient",Does not climb,Robot stopped working after a collision with us,
+3/24/2017 17:28:49,456,40,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,Player station,"Touched sensor, Locked in place, Fast climb (<10s)",,Strong pilot
+3/24/2017 18:44:15,456,49,Yes,0,0,No,,Does not score Fuel,,5,Does not load fuel,"Player station, Efficient","Touched sensor, Fast climb (<10s), Trouble capturing rope",Very good ,Strong pilot
+3/24/2017 12:01:38,590,8,No,0,0,No,,Low Boiler,6-10,0,Player station,Does not do gears,"Trouble capturing rope, Does not climb",Inexperienced drive team,
+3/24/2017 13:10:32,590,15,No,0,0,No,,Does not score Fuel,,1,Does not load fuel,Player station,"Touched sensor, Locked in place",,
+3/24/2017 15:02:02,590,23,Yes,0,0,No,,Does not score Fuel,,1,Does not load fuel,Player station,Does not climb,,Strong pilot
+3/24/2017 19:05:42,590,52,Yes,0,0,No,,Low Boiler,6-10,1,Player station,"Player station, Inefficient",Does not climb,,
+3/24/2017 12:11:35,1421,9,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient","Touched sensor, Rolled backward, Slow climb (10-20s)","Gears got stuck on foam noodle, prevented gear from loading ",
+3/24/2017 13:11:06,1421,15,No,0,0,No,Human pulled spike up to early,Does not score Fuel,0,0,Player station,Player station,Fast climb (<10s),,
+3/24/2017 16:12:50,1421,31,Yes,0,0,No,,High Boiler,1-5,0,Player station,"Player station, Inefficient","Touched sensor, Locked in place, Fast climb (<10s)",Couldn't load well,"Strong pilot, Deployed rope late"
+3/24/2017 17:36:47,1421,41,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Slow climb (10-20s), Trouble capturing rope",Decent at gear cycling,
+3/24/2017 13:22:51,1730,16,No,0,0,No,Tried and missed,Does not score Fuel,0,2,Does not load fuel,Floor,Does not climb,,
+3/24/2017 15:36:36,1730,27,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Floor, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",Not bad ,Strong pilot
+3/24/2017 10:47:46,1818,1,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Player station,Does not climb,,Strong pilot
+3/24/2017 12:36:20,1818,12,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Trouble capturing rope, Does not climb",,
+3/24/2017 16:01:10,1818,30,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 16:02:10,1818,30,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Player station,"Touched sensor, Locked in place, Slow climb (10-20s)",,
+3/24/2017 18:27:18,1818,47,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient",Does not climb,,
+3/24/2017 19:13:32,1818,53,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Fast climb (<10s)",Not good at delivering gears,
+3/24/2017 19:15:35,1818,53,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Fast climb (<10s)",Got red carded in this match,Received penalty
+3/24/2017 12:54:11,1902,14,Yes,0,0,No,,Does not score Fuel,0,0,Player station,Player station,"Touched sensor, Locked in place, Fast climb (<10s), Trouble capturing rope",Disconnected  from 60 to 30 seconds ,Strong pilot
+3/24/2017 14:49:59,1902,22,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",Sensor turned on at very last second,Strong pilot
+3/24/2017 17:29:07,1902,40,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Slow climb (10-20s), Trouble capturing rope, Does not climb",,Dropped gear out of ship
+3/24/2017 13:34:35,1912,17,Yes,0,0,No,,Does not score Fuel,11-15,0,Floor,Player station,Does not climb,,
+3/24/2017 15:00:54,1912,23,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Did not move,Strong pilot
+3/24/2017 15:02:15,1927,23,Yes,0,0,No,,Low Boiler,0,2,Does not load fuel,"Player station, Inefficient","Trouble capturing rope, Does not climb",Slow pilot and not a good design ,
+3/24/2017 12:20:54,2078,10,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Very confused pilots ,Forgot to deploy rope
+3/24/2017 13:23:45,2078,16,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,"Touched sensor, Locked in place, Slow climb (10-20s), Trouble capturing rope",No one from this team was a pilot. ,
+3/24/2017 15:02:05,2078,23,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Does litterally nothing,
+3/24/2017 15:02:55,2078,23,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Drove in circles the entire match,
+3/24/2017 19:13:26,2078,53,Yes,0,0,No,,Does not score Fuel,,1,Does not load fuel,Player station,"Rolled backward, Fast climb (<10s)",,Strong pilot
+3/24/2017 19:25:57,2078,53,Yes,0,0,No,,Does not score Fuel,,1,Does not load fuel,Player station,"Rolled backward, Fast climb (<10s)",,Strong pilot
+3/24/2017 13:34:13,2080,17,Yes,0,0,No,,Does not score Fuel,,1,Does not load fuel,Player station,"Touched sensor, Slow climb (10-20s), Trouble capturing rope",,Dropped gear out of ship
+3/24/2017 18:12:18,2080,45,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s), Trouble capturing rope",,
+3/24/2017 19:26:00,2080,54,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Trouble capturing rope",,"Strong pilot, Dropped gear out of ship"
+3/24/2017 16:55:19,2152,36,Yes,0,0,No,,Does not score Fuel,0,0,Player station,Does not do gears,"Touched sensor, Slow climb (10-20s)",Played defense decently; would not choose for defense,
+3/24/2017 11:06:51,2183,3,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient",Trouble capturing rope,Bad loader,Strong pilot
+3/24/2017 12:54:11,2183,14,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Player station,"Slow climb (10-20s), Trouble capturing rope",Hanging in middle of rope,
+3/24/2017 17:05:07,2183,37,Yes,0,0,No,,High Boiler,1-5,3,Floor,"Player station, Efficient","Touched sensor, Fast climb (<10s)",,
+3/24/2017 18:58:37,2183,51,Yes,0,0,No,,Does not score Fuel,,3,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s), Trouble capturing rope",,"Strong pilot, Dropped gear out of ship"
+3/24/2017 11:06:04,2221,3,No,0,0,No,,Does not score Fuel,0,3,Does not load fuel,Player station,Trouble capturing rope,,Strong pilot
+3/24/2017 12:44:43,2221,13,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Player station,"Touched sensor, Locked in place, Slow climb (10-20s)",,Strong pilot
+3/24/2017 15:28:57,2221,26,No,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Player station,Does not climb,,
+3/24/2017 15:29:01,2221,26,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Inefficient",Does not climb,"Decent gearbot, but not extraordinary drive team",Strong pilot
+3/24/2017 16:54:20,2221,36,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Slow climb (10-20s)",,
+3/24/2017 18:12:46,2221,45,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Inefficient","Touched sensor, Slow climb (10-20s)",Gear is not very well-secured,
+3/24/2017 11:29:26,2613,5,No,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Slow climb (10-20s)",,
+3/24/2017 18:44:30,2613,49,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient","Touched sensor, Slow climb (10-20s), Trouble capturing rope",Pretty bad,
+3/24/2017 10:57:27,2797,2,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Locked in place, Fast climb (<10s)","Missed 4 gears from human player, 5th gear got stuck in side of robot. ",Deployed rope late
+3/24/2017 12:45:03,2797,13,No,0,0,No,Foul for going to far,Does not score Fuel,0,0,Does not load fuel,Player station,Fast climb (<10s),,
+3/24/2017 14:49:33,2797,22,Yes,0,0,No,,Does not score Fuel,6-10,2,Player station,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",,
+3/24/2017 17:13:44,2797,38,Yes,0,0,No,Couldn't see ,Does not score Fuel,,0,Does not load fuel,Does not do gears,Touched sensor,,Strong pilot
+3/24/2017 18:11:50,2992,45,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 10:47:38,3039,1,No,0,0,No,,Does not score Fuel,0,4,Floor,Player station,Touched sensor,,Strong pilot
+3/24/2017 15:28:20,3039,26,Yes,0,5,No,,High Boiler,,4,Floor,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 17:52:00,3039,43,No,0,0,No,,Does not score Fuel,,5,Does not load fuel,Player station,Trouble capturing rope,Good ,"Strong pilot, Placed gears out of order"
+3/24/2017 11:49:33,3337,7,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Slow climb (10-20s)",,
+3/24/2017 15:52:46,3337,29,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Inefficient","Trouble capturing rope, Does not climb",,Strong pilot
+3/24/2017 16:37:30,3337,34,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Inefficient","Touched sensor, Locked in place, Trouble capturing rope",No ,"Strong pilot, Deployed rope late"
+3/24/2017 19:13:38,3337,53,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 18:44:04,3397,49,Yes,0,0,No,,High Boiler,6-10,2,Player station,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 18:48:49,3397,49,Yes,0,0,No,,High Boiler,6-10,2,Player station,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 11:59:13,3478,8,Yes,0,7,No,,High Boiler,0,2,Floor,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",Go Mexico ,Strong pilot
+3/24/2017 13:22:20,3478,16,No,0,2,No,,High Boiler,21-25,0,"Player station, Floor",Does not do gears,"Touched sensor, Locked in place, Fast climb (<10s)",,
+3/24/2017 18:05:41,3478,44,Yes,0,2,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",,"Strong pilot, Dropped gear out of ship"
+3/24/2017 19:42:23,3478,56,No,0,1,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Locked in place, Fast climb (<10s)",,"Dropped gear out of ship, Deployed rope late"
+3/24/2017 17:13:58,3481,38,No,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",,Strong pilot
+3/24/2017 18:04:47,3481,44,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 11:15:17,3606,4,Yes,0,0,No,,Does not score Fuel,0,1,Floor,Player station,"Trouble capturing rope, Does not climb",,Strong pilot
+3/24/2017 14:34:26,3606,20,Yes,0,0,No,,Does not score Fuel,0,0,Player station,"Player station, Inefficient","Trouble capturing rope, Does not climb",Drive team didn't seem to know what they wee doing,
+3/24/2017 18:51:17,3606,50,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Player station,Does not climb,Disconnected shortly after teleop began,
+3/24/2017 19:42:37,3606,56,Yes,0,0,No,Got a foul for going into other team's territory,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient",Does not climb,Didn't do pretty much anything,
+3/24/2017 11:28:02,3616,4,No,0,0,No,,Does not score Fuel,0,3,Does not load fuel,Player station,Fast climb (<10s),"Good robot, dropped one gear",
+3/24/2017 16:37:30,3616,34,Yes,0,0,No,,Does not score Fuel,1-5,2,Does not load fuel,"Player station, Efficient","Touched sensor, Fast climb (<10s), Trouble capturing rope",Strong team,
+3/24/2017 17:36:07,3616,41,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",,"Strong pilot, Dropped gear out of ship"
+3/24/2017 11:28:34,3666,5,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Trouble capturing rope, Does not climb","Pilot is decent, but struggled with collecting the gears",Strong pilot
+3/24/2017 13:44:31,3666,18,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Player station,Trouble capturing rope,Hanging in middle of rope,Strong pilot
+3/24/2017 15:36:22,3666,27,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Really bad,
+3/24/2017 16:20:02,3666,32,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Inefficient",Does not climb,,"Strong pilot, Forgot to spin rotors"
+3/24/2017 17:51:52,3666,43,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient",Trouble capturing rope,,Dropped gear out of ship
+3/24/2017 14:33:41,3753,20,Yes,0,0,No,,Low Boiler,0,2,Player station,"Player station, Inefficient","Touched sensor, Rolled backward, Fast climb (<10s), Trouble capturing rope",Top heavy ,Strong pilot
+3/24/2017 15:28:59,3753,26,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Slow climb (10-20s), Trouble capturing rope",Top heavy ,"Strong pilot, Dropped gear out of ship, Forgot to spin rotors"
+3/24/2017 16:12:22,3753,31,No,0,0,No,,Does not score Fuel,0,3,Does not load fuel,Player station,"Touched sensor, Slow climb (10-20s)",,
+3/24/2017 19:35:18,3753,55,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Inefficient",Does not climb,"5006 did two gears
+1730 did 4 gears",Deployed rope late
+3/24/2017 15:44:10,3932,28,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Fast climb (<10s)",Strong team; improved driver ability would make this team unstoppable,"Strong pilot, Deployed rope late"
+3/24/2017 18:58:38,3932,51,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Fast climb (<10s)",Fast gear bot,
+3/24/2017 12:22:56,3937,10,Yes,0,4,No,Missed gear ,Does not score Fuel,0,2,Floor,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)","Fast at getting gears, got blocked multiple times by opposing team. Fast and accurate climb. ",
+3/24/2017 17:14:20,3937,38,Yes,0,0,No,,Does not score Fuel,0,4,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",Very strong team; good gearbot and fast cycling,Strong pilot
+3/24/2017 11:07:01,3946,3,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient",Trouble capturing rope,"Robot top heavy, almost fell over several times",
+3/24/2017 12:36:08,3946,12,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Efficient",Does not climb,Lost connection at the worst of times ,
+3/24/2017 14:41:33,3946,21,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Stopped after autonomous,
+3/24/2017 14:41:52,3946,21,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Did not move after autonomous,Strong pilot
+3/24/2017 14:42:15,3946,21,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,"Inefficient, Does not do gears",Does not climb,Robot stopped working on field ,Strong pilot
+3/24/2017 11:49:34,3991,7,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Player station,"Slow climb (10-20s), Trouble capturing rope",,
+3/24/2017 16:01:06,3991,30,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Inefficient",Does not climb,,Strong pilot
+3/24/2017 19:26:30,4023,54,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,Player station,Does not climb,Went to get gear instead of climbing ,Strong pilot
+3/24/2017 11:27:31,4053,5,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient",Does not climb,,
+3/24/2017 12:29:09,4053,11,No,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient",Does not climb,,
+3/24/2017 15:28:45,4053,26,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Efficient",Does not climb,,
+3/24/2017 17:28:52,4053,40,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Efficient",Does not climb,"Oh, hell no","Dropped gear out of ship, Forgot to spin rotors"
+3/24/2017 18:34:27,4053,48,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Player station,Does not climb,,Strong pilot
+3/24/2017 11:16:48,4063,4,No,0,1,No,,High Goal,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Locked in place, Fast climb (<10s)",Lots of defense,Strong pilot
+3/24/2017 10:56:26,4087,2,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 12:29:52,4087,11,No,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Floor,Rolled backward,,
+3/24/2017 14:42:04,4087,21,No,0,0,No,,Does not score Fuel,,1,Does not load fuel,"Player station, Inefficient",Trouble capturing rope,Slow pilot,
+3/24/2017 18:20:28,4087,46,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Floor, Efficient","Touched sensor, Locked in place",Chinese were playing good defense. Possible problems with their robot ,"Strong pilot, Dropped gear out of ship"
+3/24/2017 12:09:27,4209,9,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,"Slow climb (10-20s), Trouble capturing rope",,
+3/24/2017 12:53:27,4209,14,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,"Rolled backward, Fast climb (<10s), Trouble capturing rope",,
+3/24/2017 18:19:40,4209,46,Yes,0,0,No,,Does not score Fuel,,0,Does not load fuel,Does not do gears,Rolled backward,,Strong pilot
+3/24/2017 19:05:27,4209,52,No,0,0,No,,Does not score Fuel,,0,Does not load fuel,Does not do gears,Does not climb,,Strong pilot
+3/24/2017 19:11:01,4209,52,No,0,0,No,,Does not score Fuel,,0,Does not load fuel,Does not do gears,Does not climb,,Strong pilot
+3/24/2017 11:40:10,4336,6,No,0,0,No,,High Boiler,1-5,0,Floor,Does not do gears,"Touched sensor, Locked in place",,Strong pilot
+3/24/2017 12:53:35,4336,14,Yes,0,3,No,,High Boiler,1-5,0,Floor,Does not do gears,"Locked in place, Fast climb (<10s), Missed sensor (after climbing)",,Strong pilot
+3/24/2017 16:47:18,4336,35,Yes,0,2,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Fast climb (<10s)",Drive team is not effective,Strong pilot
+3/24/2017 18:34:35,4337,48,Yes,0,0,No,,High Boiler,6-10,1,Floor,"Player station, Efficient","Locked in place, Slow climb (10-20s), Trouble capturing rope",,
+3/24/2017 11:14:49,4353,4,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,"Pilot was not in airship
+Robot didn't move at all after autonomous",
+3/24/2017 12:53:22,4353,14,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,,
+3/24/2017 15:11:29,4378,24,Yes,0,5,No,,High Boiler,31-35,0,Floor,Does not do gears,Fast climb (<10s),,Strong pilot
+3/24/2017 14:41:35,4587,21,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,Floor,"Touched sensor, Locked in place, Fast climb (<10s)",,Strong pilot
+3/24/2017 11:27:16,4592,5,No,0,0,No,,Does not score Fuel,0,2,Does not load fuel,Player station,"Touched sensor, Locked in place",,Strong pilot
+3/24/2017 13:22:13,4592,16,Yes,0,0,No,,Does not score Fuel,,4,Does not load fuel,"Player station, Floor, Efficient","Touched sensor, Locked in place, Fast climb (<10s)","Very accurate gear, can pick up from ground. Fast climb ",
+3/24/2017 18:26:19,4592,47,No,0,0,No,,Does not score Fuel,,3,Does not load fuel,Floor,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 18:30:15,4592,47,No,0,0,No,,Does not score Fuel,,3,Does not load fuel,Floor,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 11:14:58,4641,4,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Slow climb (10-20s), Trouble capturing rope",,
+3/24/2017 12:30:21,4641,11,Yes,0,0,No,Crossed into opposing teams ship and dropped gear,Does not score Fuel,0,1,Player station,"Player station, Inefficient",Slow climb (10-20s),Dropped 3 gears without contact. (Gears just fell out). Almost climbed all the way but stopped too short. ,
+3/24/2017 15:52:48,4641,29,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,Player station,"Slow climb (10-20s), Missed sensor (after climbing)",Barely climbed the rope,
+3/24/2017 18:26:47,4641,47,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",Not good against defense ,Dropped gear out of ship
+3/24/2017 13:43:43,4798,18,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Player station,"Slow climb (10-20s), Trouble capturing rope",,
+3/24/2017 16:18:48,4798,18,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Player station,"Slow climb (10-20s), Trouble capturing rope",,
+3/24/2017 10:56:32,4978,2,No,0,0,No,Did not move,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient",Trouble capturing rope,Driver is crap ,
+3/24/2017 10:56:43,4978,2,No,0,0,No,,Does not score Fuel,,1,Does not load fuel,Inefficient,Does not climb,Other robot did heavy defense and it was held back until last 40 seconds,
+3/24/2017 15:11:48,4978,24,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Does not do gears,Does not climb,,
+3/24/2017 18:12:06,4978,45,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Inefficient",Does not climb,No,"Dropped gear out of ship, Forgot to spin rotors"
+3/24/2017 11:08:46,5006,3,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Inefficient","Touched sensor, Slow climb (10-20s), Trouble capturing rope","Slow at cycling gears; couldn't tell if one of the pilots was theirs. If so, both pilots were decent at capturing gears, but were slow at scoring them ",
+3/24/2017 11:50:12,5168,7,No,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Slow climb (10-20s)",,
+3/24/2017 16:29:34,5168,33,No,0,0,No,,Does not score Fuel,0,1,"Player station, Does not load fuel","Player station, Inefficient","Touched sensor, Slow climb (10-20s)",,Strong pilot
+3/24/2017 19:13:55,5168,53,Yes,0,0,No,,Does not score Fuel,,3,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s), Trouble capturing rope",Nothing noteworthy ,
+3/24/2017 11:49:55,5325,7,No,0,0,No,,Does not score Fuel,0,0,Floor,Does not do gears,Does not climb,Alright pilot; I think robot disconnected at gear intake station,
+3/24/2017 13:33:37,5325,17,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Inefficient,Does not climb,,
+3/24/2017 19:05:50,5325,52,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient",Does not climb,"Was defended and had a hard time breaking through
+
+Everyone in this match SUCKS",
+3/24/2017 10:56:20,5410,2,No,0,0,No,,Does not score Fuel,0,1,"Floor, Does not load fuel","Player station, Floor","Slow climb (10-20s), Missed sensor (after climbing)",,
+3/24/2017 13:10:20,5410,15,No,0,0,No,,Does not score Fuel,0,3,Does not load fuel,Efficient,"Touched sensor, Locked in place, Fast climb (<10s)",,Strong pilot
+3/24/2017 15:43:35,5410,28,No,0,0,No,,Does not score Fuel,,1,Does not load fuel,Floor,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 17:05:20,5410,37,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,"Did not move at all
+Pilot didn't do very much because alliance was bad",Strong pilot
+3/24/2017 17:43:55,5410,42,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Floor, Efficient","Trouble capturing rope, Missed sensor (after climbing)",Not good ,Dropped gear out of ship
+3/24/2017 11:27:35,5785,5,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient",Does not climb,Bad drive team ,
+3/24/2017 13:32:49,5785,17,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Did not move,
+3/24/2017 17:44:06,5785,42,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient",Does not climb,,
+3/24/2017 11:06:29,5819,1,No,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Fast climb (<10s), Trouble capturing rope",,Strong pilot
+3/24/2017 12:30:49,5819,11,No,0,0,No,,Does not score Fuel,0,4,Does not load fuel,"Player station, Efficient","Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 15:11:51,5819,24,Yes,0,0,No,,Does not score Fuel,,3,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",Slow but strong ,Deployed rope late
+3/24/2017 18:51:29,5819,50,Yes,0,0,No,,Does not score Fuel,,3,Does not load fuel,"Floor, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",,Strong pilot
+3/24/2017 11:07:11,5863,3,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Trouble capturing rope,Spent half the match trying to place the original gear. Dropped the gear without getting it on spring. Didn't attempt to get anymore gears. Trash ,
+3/24/2017 13:10:22,5863,15,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient",Trouble capturing rope,,
+3/24/2017 14:49:47,5863,22,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Player station,Does not climb,,
+3/24/2017 14:50:57,5863,22,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient","Touched sensor, Slow climb (10-20s), Trouble capturing rope","Didn't do very much during match. Held a gear, but never delivered it",
+3/24/2017 16:29:12,5863,33,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Player station,"Slow climb (10-20s), Trouble capturing rope",,Strong pilot
+3/24/2017 16:29:33,5863,33,Yes,0,0,No,,Does not score Fuel,0,0,"Player station, Does not load fuel","Player station, Inefficient",Trouble capturing rope,Dropped 6 gears at player station ,
+3/24/2017 14:24:23,5864,19,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Inefficient","Touched sensor, Fast climb (<10s)",,
+3/24/2017 15:11:33,5864,24,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Player station,Does not climb,,
+3/24/2017 16:12:19,5864,31,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Inefficient","Trouble capturing rope, Does not climb",,Dropped gear out of ship
+3/24/2017 18:44:14,5864,49,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s), Trouble capturing rope",,Strong pilot
+3/24/2017 19:26:21,5864,54,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient",Trouble capturing rope,,
+3/24/2017 15:21:12,5953,25,No,0,0,No,,Does not score Fuel,,1,Does not load fuel,Player station,"Locked in place, Slow climb (10-20s)",,Strong pilot
+3/24/2017 17:43:54,5953,42,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Inefficient,"Touched sensor, Locked in place, Slow climb (10-20s), Trouble capturing rope",,
+3/24/2017 11:43:47,5964,6,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Player station,Trouble capturing rope,Okay pilot; attempted to load gear; very slow,
+3/24/2017 11:40:36,5965,6,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,"All girl team- better date option than match partner
+Didn't move
+Pilot didn't seem to know what to do",
+3/24/2017 12:29:04,5965,11,Yes,0,0,No,Penalty,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Touched sensor,,
+3/24/2017 15:21:13,5965,25,No,0,0,No,No autonomous ,Low Boiler,6-10,1,Player station,Player station,Does not climb,,
+3/24/2017 15:22:26,5965,25,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,"As said before, their drive team might be cute, but they suck... oh wait I can't say that ",Strong pilot
+3/24/2017 17:21:00,5965,39,No,0,0,No,,Low Boiler,1-5,1,Floor,Does not do gears,Does not climb,,
+3/24/2017 18:05:16,5965,44,Yes,0,0,No,,Low Boiler,6-10,1,Floor,Does not do gears,Does not climb,Pilot very slow to get things done,
+3/24/2017 19:05:15,5965,52,No,0,0,No,,Does not score Fuel,0,1,Player station,"Player station, Inefficient",Does not climb,,
+3/24/2017 11:59:09,5971,8,No,0,0,No,No auto,Does not score Fuel,0,1,Does not load fuel,Player station,"Trouble capturing rope, Does not climb",Very weak drive train,
+3/24/2017 17:14:15,5971,38,Yes,0,0,No,,Does not score Fuel,,3,Does not load fuel,"Player station, Inefficient",Does not climb,Weakness is defense on it,"Strong pilot, Placed gears out of order"
+3/24/2017 18:37:08,5971,48,Yes,0,0,No,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient",Does not climb,Could be even better if could climb,
+3/24/2017 11:39:54,5997,6,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Did not move ,
+3/24/2017 12:36:23,5997,12,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Does not do gears,Does not climb,Used gear from auto in tele op,
+3/24/2017 17:05:11,5997,37,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Player station,Does not climb,,
+3/24/2017 17:52:22,5997,43,No,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Inefficient",Trouble capturing rope,Slow at cycling gears,
+3/24/2017 10:50:13,6068,1,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Player station,Does not climb,Played defense. Didnt go for gears or fuel. Disconnected at 50 seconds left ,
+3/24/2017 12:47:08,6068,13,Yes,0,0,No,,Does not score Fuel,0,2,Does not load fuel,"Player station, Inefficient","Touched sensor, Locked in place",,Strong pilot
+3/24/2017 15:44:22,6068,28,No,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Inefficient","Trouble capturing rope, Does not climb",Not a good design ,
+3/24/2017 18:04:44,6068,44,Yes,0,0,No,,Does not score Fuel,,2,Does not load fuel,"Player station, Inefficient",Trouble capturing rope,,
+3/24/2017 12:18:51,6103,10,No,0,0,No,No robot on field,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,No robot on field,
+3/24/2017 13:08:49,6103,15,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,,
+3/24/2017 18:21:38,6103,46,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient",Trouble capturing rope,"Had trouble putting gear on spike.
+Attempted defense",
+3/24/2017 19:27:13,6103,54,No,0,0,No,,Does not score Fuel,,0,Does not load fuel,Does not do gears,Does not climb,,Strong pilot
+3/24/2017 19:27:44,6103,54,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,Player station,Does not climb,Very incompetent driver  -Grant,
+3/24/2017 19:30:45,6103,54,No,0,0,No,,Does not score Fuel,,0,Does not load fuel,Does not do gears,Does not climb,,Strong pilot
+3/24/2017 12:10:57,6179,9,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Locked in place, Slow climb (10-20s)",,
+3/24/2017 17:21:18,6179,38,Yes,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Slow climb (10-20s)",Not very efficient robot,
+3/24/2017 15:36:50,6489,27,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Touched sensor,,Strong pilot
+3/24/2017 16:19:53,6489,32,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,Does not climb,Didn't do anything but bad defense,
+3/24/2017 11:14:55,6614,4,Yes,0,0,No,,Does not score Fuel,0,0,Player station,Player station,Trouble capturing rope,,
+3/24/2017 12:44:48,6614,13,Yes,0,0,No,,Low Boiler,1-5,1,Does not load fuel,"Player station, Efficient","Trouble capturing rope, Missed sensor (after climbing)",,Strong pilot
+3/24/2017 16:19:39,6614,32,No,0,0,No,,Does not score Fuel,0,3,Does not load fuel,Player station,Trouble capturing rope,,
+3/24/2017 16:19:45,6614,32,Yes,0,0,No,,Does not score Fuel,,1,Does not load fuel,Player station,"Slow climb (10-20s), Trouble capturing rope",,Strong pilot
+3/24/2017 18:20:01,6614,46,Yes,0,0,No,,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient",Does not climb,,Received penalty
+3/24/2017 12:20:04,6677,9,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient",Does not climb,Issues with driving,
+3/24/2017 13:33:41,6677,17,No,0,0,No,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient",Does not climb,,
+3/24/2017 17:36:01,6677,41,Yes,0,0,No,,Does not score Fuel,,0,Does not load fuel,Player station,Does not climb,,Strong pilot
+3/24/2017 18:58:39,6677,51,No,0,0,No,,Does not score Fuel,0,0,Does not load fuel,Does not do gears,"Trouble capturing rope, Missed sensor (after climbing)","On ""Defence""",
+3/24/2017 16:54:28,283,36,Yes,0,0,Yes,,High Boiler,1-5,4,Player station,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",Very good ,"Strong pilot, Dropped gear out of ship"
+3/24/2017 15:36:35,456,26,Yes,0,0,Yes,,Does not score Fuel,,5,Does not load fuel,Floor,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 11:41:33,1730,6,Yes,0,0,Yes,,Does not score Fuel,,3,Does not load fuel,"Floor, Inefficient","Touched sensor, Fast climb (<10s)",Very inconsistent gear pickup from ground. Very fast climb ~5-6 seconds ,Strong pilot
+3/24/2017 19:34:00,1730,55,Yes,0,0,Yes,,Does not score Fuel,0,3,Does not load fuel,"Floor, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",Climbed rope in a second,Strong pilot
+3/24/2017 18:51:13,1902,50,Yes,0,0,Yes,,Does not score Fuel,,3,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 18:52:55,1902,50,Yes,0,0,Yes,,Does not score Fuel,0,4,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place",Very good driving around defensive robots. ,
+3/24/2017 18:56:07,1902,50,Yes,0,0,Yes,,Does not score Fuel,,3,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 11:49:52,1927,7,No,0,0,Yes,Dropped gear,Does not score Fuel,0,2,Does not load fuel,Player station,Trouble capturing rope,Looks like Omni wheel drive,
+3/24/2017 12:09:46,2080,9,Yes,0,0,Yes,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Fast climb (<10s), Missed sensor (after climbing)",Not bad,Dropped gear out of ship
+3/24/2017 15:52:27,2080,29,Yes,0,0,Yes,,Does not score Fuel,0,2,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 12:21:12,2152,10,Yes,0,0,Yes,,Does not score Fuel,,0,Does not load fuel,Player station,Does not climb,,Forgot to deploy rope
+3/24/2017 12:44:39,2613,13,No,0,0,Yes,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient",Does not climb,,
+3/24/2017 17:05:08,2613,37,Yes,0,0,Yes,,Does not score Fuel,,0,Does not load fuel,Player station,"Slow climb (10-20s), Trouble capturing rope",,Strong pilot
+3/24/2017 10:47:18,2992,1,No,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,"Player station, Efficient",Does not climb,,
+3/24/2017 10:49:24,2992,1,Yes,0,0,Yes,,Does not score Fuel,0,1,Does not load fuel,Player station,Does not climb,Dropped comma during match multiple times- data is only based on what happened,
+3/24/2017 12:29:07,2992,11,Yes,0,0,Yes,,Does not score Fuel,,4,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",,Strong pilot
+3/24/2017 14:49:32,2992,22,Yes,0,0,Yes,,Does not score Fuel,,4,Does not load fuel,"Player station, Floor, Efficient","Touched sensor, Locked in place, Fast climb (<10s), Trouble capturing rope",Very good team ,Strong pilot
+3/24/2017 16:46:45,3039,35,Yes,0,0,Yes,,Does not score Fuel,,3,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place",,Deployed rope late
+3/24/2017 13:22:15,3239,16,No,0,0,Yes,,Does not score Fuel,,3,Does not load fuel,"Player station, Efficient",Touched sensor,,
+3/24/2017 18:34:41,3337,48,Yes,0,0,Yes,,Does not score Fuel,0,1,Does not load fuel,Player station,Trouble capturing rope,"Driver is not very smart, couldn't figure out how to get around defensive robot ",
+3/24/2017 19:15:38,3337,53,Yes,0,0,Yes,,Does not score Fuel,0,4,Does not load fuel,Player station,"Touched sensor, Locked in place, Fast climb (<10s)","Fast climb, fast gears. Grant has a crush",
+3/24/2017 16:53:53,3478,36,Yes,0,0,Yes,,Does not score Fuel,0,1,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 19:43:49,3478,56,Yes,0,0,Yes,,High Boiler,6-10,1,Player station,Player station,"Touched sensor, Locked in place, Fast climb (<10s)","Very close shooter, needs small adjustment to be very accurate. Dropped 3 gears",
+3/24/2017 11:49:32,3481,7,Yes,0,0,Yes,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Fast climb (<10s)",Good design ,"Strong pilot, Dropped gear out of ship"
+3/24/2017 12:36:45,3481,12,No,0,0,Yes,,Does not score Fuel,,1,Floor,Player station,Does not climb,,
+3/24/2017 12:36:57,3616,12,Yes,0,0,Yes,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place",Fast gear delivery and pickup. Gears can be knocked out by other robots (gear sits on top of robot fairly unsecured). ,Strong pilot
+3/24/2017 15:20:47,3616,25,Yes,0,0,Yes,,Does not score Fuel,0,2,Does not load fuel,"Player station, Efficient","Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 19:33:59,3616,55,Yes,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,"Player station, Efficient",Does not climb,No,Deployed rope late
+3/24/2017 19:42:20,3616,56,Yes,0,0,Yes,,Does not score Fuel,,3,Does not load fuel,"Floor, Efficient","Touched sensor, Fast climb (<10s)",,"Strong pilot, Dropped gear out of ship"
+3/24/2017 16:12:10,3753,31,Yes,0,0,Yes,,Does not score Fuel,0,1,Player station,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 17:43:51,3753,42,Yes,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,Player station,"Trouble capturing rope, Does not climb",,Strong pilot
+3/24/2017 11:17:27,3932,4,Yes,0,0,Yes,,Does not score Fuel,0,4,Does not load fuel,Player station,"Touched sensor, Slow climb (10-20s)","Very fast at delivering gears. Tall robot, almost tipped itself over driving around. Dropped 2 gears at human player. Got the climb, but robot swung off the button for 5 seconds before it stabilized ",Strong pilot
+3/24/2017 13:43:39,3937,18,Yes,0,0,Yes,,Does not score Fuel,,2,Player station,"Player station, Inefficient","Touched sensor, Fast climb (<10s)",,
+3/24/2017 15:44:18,3937,28,Yes,0,0,Yes,,High Boiler,1-5,3,Floor,"Player station, Efficient","Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 18:44:30,3937,50,Yes,0,0,Yes,,High Boiler,11-15,3,Player station,Player station,"Touched sensor, Locked in place",,Strong pilot
+3/24/2017 16:47:12,3946,35,Yes,0,0,Yes,,Does not score Fuel,,1,Does not load fuel,Player station,Trouble capturing rope,Robot fell ,Strong pilot
+3/24/2017 12:44:56,3991,13,Yes,0,0,Yes,,Does not score Fuel,0,3,Does not load fuel,"Floor, Efficient","Touched sensor, Locked in place, Slow climb (10-20s)",,
+3/24/2017 16:29:32,4063,33,Yes,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,Inefficient,Trouble capturing rope,No ,"Deployed rope late, Forgot to deploy rope"
+3/24/2017 18:59:03,4087,51,Yes,0,0,Yes,,Does not score Fuel,,3,Does not load fuel,Player station,"Slow climb (10-20s), Rope broke (inspect for damage)",,Strong pilot
+3/24/2017 19:02:17,4087,51,Yes,0,0,Yes,,Does not score Fuel,,3,Does not load fuel,Player station,"Slow climb (10-20s), Rope broke (inspect for damage)",,Strong pilot
+3/24/2017 11:59:33,4107,8,Yes,0,0,Yes,,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient","Touched sensor, Locked in place",,"Dropped gear out of ship, Received penalty"
+3/24/2017 15:20:56,4107,25,Yes,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,"Player station, Efficient","Fast climb (<10s), Trouble capturing rope, Missed sensor (after climbing)",Slow Robert and slow pilot ,Strong pilot
+3/24/2017 19:42:28,4336,56,Yes,0,0,Yes,,Does not score Fuel,0,2,Does not load fuel,Player station,Does not climb,,Strong pilot
+3/24/2017 16:37:20,4353,34,Yes,0,0,Yes,,Does not score Fuel,,1,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 17:51:46,4353,43,Yes,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,Player station,Does not climb,,Strong pilot
+3/24/2017 10:48:51,4587,1,No,0,0,Yes,,Does not score Fuel,0,4,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)","Pilot very efficient, fast robot",Strong pilot
+3/24/2017 12:55:14,4587,14,Yes,0,0,Yes,,Does not score Fuel,0,3,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",,Strong pilot
+3/24/2017 14:41:47,4592,21,Yes,0,0,Yes,,Does not score Fuel,0,4,Does not load fuel,"Floor, Efficient","Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 17:28:52,5006,40,Yes,0,0,Yes,,Does not score Fuel,,3,Does not load fuel,Player station,"Touched sensor, Fast climb (<10s)",,Strong pilot
+3/24/2017 18:26:40,5325,47,Yes,0,0,Yes,Gear fell into hopper,Does not score Fuel,0,0,Does not load fuel,"Player station, Inefficient",Does not climb,Didn't do much,
+3/24/2017 14:49:28,5785,22,Yes,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,Player station,Does not climb,,Strong pilot
+3/24/2017 13:22:20,5953,16,Yes,0,0,Yes,,Does not score Fuel,0,1,Does not load fuel,"Player station, Inefficient","Touched sensor, Locked in place, Fast climb (<10s), Trouble capturing rope",,Strong pilot
+3/24/2017 13:34:16,5971,17,Yes,0,0,Yes,,Does not score Fuel,0,3,Does not load fuel,"Player station, Inefficient",Does not climb,No pilot from team,
+3/24/2017 19:33:57,6068,55,Yes,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,Player station,Does not climb,,Strong pilot
+3/24/2017 19:39:51,6068,55,Yes,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,Player station,Does not climb,,Strong pilot
+3/24/2017 18:34:43,6489,48,Yes,0,0,Yes,,Does not score Fuel,,2,Does not load fuel,"Player station, Efficient","Touched sensor, Locked in place, Fast climb (<10s)",No,
