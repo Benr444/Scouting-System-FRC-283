@@ -28,7 +28,7 @@ def to_html_table(data, header, html_path):
     html_file.truncate(0)
     html_file.write("<html><body><table border='2'>")
     for cell in header:
-        html_file.write("<th>" + str(header[cell]) + "</th>")
+        html_file.write("<th>" + str(cell) + "</th>")
     for row in data: #Goes through each row
         html_file.write("<tr>")
         for cell in row:
