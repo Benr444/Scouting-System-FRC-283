@@ -36,6 +36,11 @@ class RedAlliance():
             raise TypeError("RedAlliance: csv_path must be a string.")
         
     def add_pit_source(self, csv_path):
+        #This adds data to the main data set in this form:
+        # 0 |{"Header1": value1, "Header2": value4, ...}
+        # 1 |{"Header1": value2, "Header2": value5, ...}
+        # 2 |{"Header1": value3, "Header2": value6, ...}
+        # ..|{..}
         if type(csv_path) is str:
             self.csv_pit_sources.append(csv_path) #Add to list of sources
             file = csv.reader(open(csv_path), delimiter=",")
@@ -96,13 +101,21 @@ class RedAlliance():
             html_file.write("</tr>")
         html_file.write("</table></body></html>")
         html_file.close()
+    
+    def mass_add_pits(self, directory):
+        print("Hey howya doin'")
+        
+    def mass_add_matches(self, directory):
+        print("Nice weather today, eh?")
         
 scouter = RedAlliance()
-scouter.add_match_source("C:\\Users\\FRC_STANDARD_USER\\Desktop\\Python Development\\Python Development Repository\\Development Repo\\Scouting Sheet\\raw_scouting_data.csv")
-scouter.add_pit_source("C:\\Users\\FRC_STANDARD_USER\\Desktop\\Python Development\\Python Development Repository\\Development Repo\\Scouting Sheet\\raw_pit_scouting_data.csv")
+scouter.add_match_source("C:\\Users\\FRC_STANDARD_USER\\Desktop\\matchData.csv")
+scouter.add_match_source("C:\\Users\\FRC_STANDARD_USER\\Desktop\\matchData (1).csv")
+scouter.add_match_source("C:\\Users\\FRC_STANDARD_USER\\Desktop\\matchData (2).csv")
+#scouter.add_pit_source("C:\\Users\\FRC_STANDARD_USER\\Desktop\\Python Development\\Python Development Repository\\Development Repo\\Scouting Sheet\\raw_pit_scouting_data.csv")
 
 scouter.sort_matches_by("Team Number")
-scouter.sort_pits_by("Top speed(s) in feet per second (fps)")
+#scouter.sort_pits_by("Top speed(s) in feet per second (fps)")
 scouter.write_matches_to_html_table("C:\\Users\\FRC_STANDARD_USER\Desktop\\Python Development\\Python Development Repository\\Development Repo\\Scouting Sheet\\datatable.html")
 
 

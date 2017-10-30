@@ -1,0 +1,32 @@
+<html>
+	<body>
+		<form id='matchData' name='matchData' onSubmit='return false;'>
+			<fieldset>
+				<legend>Match Scout Data</legend>
+				Match Number: 
+				<input type='text' name='matchNumber'><br>
+				Team Name:
+				<input type='text' name='teamName'><br>
+				Team Number:
+				<input id="teamNumber" type='text' name='teamNumber'><br>
+				<input type="radio" name="color" value="red" checked> Red<br>
+ 	 			<input type="radio" name="color" value="blue"> Blue<br>
+				<button onClick='generateSheet();'>Submit</button>
+			</fieldset>
+		</form>
+		<a download="matchData.csv" id="link" href="" style="display: none">Download Data</a>
+	<script>
+		function generateSheet()
+		{
+			var form = document.forms['matchData'];
+			var formHeader = "Match Number,Team Name,Team Number,Color\r\n"
+			var formText = form['matchNumber'].value + "," + form['teamName'].value + "," + form['teamNumber'].value + "," + form['color'].value + "\r\n"
+			var file = new Blob([formHeader + formText], {type: "text/plain"});
+			document.getElementById("link").href = window.URL.createObjectURL(file);
+			document.getElementById("link").style.display = 'block';	
+		}
+	</script>	
+	
+	
+	</body>
+<html>
