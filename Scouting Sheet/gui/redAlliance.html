@@ -8,12 +8,12 @@
 	<body>
 		<table id='GG table' border='5'>
 			<tr>
-			 	<th onClick='mySort("teamNumber")'>Team Number</th>
-			 	<th>Match Number</th>
+			 	<th onClick='mySort(this)'>Team Number</th>
+			 	<th onClick='mySort(this)'>Match Number</th>
 			</tr>
 			<tr>
 			 	<td id='1'>283</td>
-			 	<td id='11'>9</td>
+			 	<td id='11'>1</td>
 			</tr>
 			<tr>
 			 	<td id='2'>281</td>
@@ -26,12 +26,63 @@
 		</table>
 	</body>
 	<script>
+		var colIndex = null
 		function mySort(column)
 		{
-			var eId(i) = document.getElementById(i)
-			var tableDOM = document.getElementById('GG table');
-			var table = {"teamNumber":[eId('1'), eId('1'), eId('3')], "matchNumber":[eId('11'), eId('22'), eId('33')]};
-			table.innerHTML = '';
+			alert("Starting to sort");
+			var tableDOM = document.getElementById('GG table');	
+			var tableContents = [];
+			for(g = 0; g < tableDOM.children[0].children.length; g++) //FOR EACH ROW
+			{
+				var row = [];
+				for (h = 0; h < tableDOM.children[0].children[g].children.length; h++) //FOR EACH CELL
+				{
+					row.push(tableDOM.children[0].children[g].children[h].innerHTML);
+					if (tableDOM.children[0].children[g].children[h].innerHTML == column.innerHTML)
+					{
+						colIndex = g;
+						alert("The column to be sorted was found in index = " + colIndex);
+					}
+				}
+				tableContents.push(row);
+				row = [];
+			}
+			
+			tableContents = tableContents.sort(compare)
+			alert("The sorted table is: \n" + tableContents);
+			tableDOM.innerHTML = "";
+			for(j = 0; j = tableContents.length; j++)
+			{
+				tableDOM.innerHTML = tableDOM.innerHTML + "<tr>";
+				for(k = 0; k = tableContents[j].length; k++)
+				{
+					tableDOM.innerHTML = tableDOM.innerHTML + "<td>" + tableContents[j][k] + "</td>";	
+				}
+				tableDOM.innerHTML = tableDOM.innerHTML + "</tr>";
+			}
 		}
+		
+		var compare = function(a, b) 
+		{
+			a = a[colIndex];
+			b = b[colIndex];
+			if ((parseFloat(a) == "NaN") && (parseFloat(b) != "NaN")) //if b IS a number
+			{
+				return -1; //a less than b
+			}
+			else if ((parseFloat(a) != "NaN") && (parseFloat(b) == "NaN"))
+			{
+				return 1; //a greater than b
+			}
+			else if ((parseFloat(a) == "NaN") && (parseFloat(b) == "NaN"))
+			{
+				return 0; //equal
+			}
+			else //Neither a nor b is a string
+			{
+				return (parseFloat(a) - parseFloat(b));
+			}
+			
+		};
 	</script>
 <html>
