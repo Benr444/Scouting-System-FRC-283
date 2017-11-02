@@ -40,7 +40,7 @@
 					row.push(tableDOM.children[0].children[g].children[h].innerHTML);
 					if (tableDOM.children[0].children[g].children[h].innerHTML == column.innerHTML)
 					{
-						colIndex = g;
+						colIndex = h;
 						alert("The column to be sorted was found in index = " + colIndex);
 					}
 				}
@@ -50,16 +50,25 @@
 			
 			tableContents = tableContents.sort(compare)
 			alert("The sorted table is: \n" + tableContents);
-			tableDOM.innerHTML = "";
-			for(j = 0; j = tableContents.length; j++)
+			var tempTable = "";
+			for(j = 0; j < tableContents.length; j++)
 			{
-				tableDOM.innerHTML = tableDOM.innerHTML + "<tr>";
-				for(k = 0; k = tableContents[j].length; k++)
+				tempTable = tempTable + "<tr>";
+				for(k = 0; k < tableContents[0].length; k++)
 				{
-					tableDOM.innerHTML = tableDOM.innerHTML + "<td>" + tableContents[j][k] + "</td>";	
+					if(j == 0)
+					{
+					 	tempTable = tempTable + "<th onClick='mySort(this)'>Team Number</th>";
+					 	tempTable = tempTable + "<th onClick='mySort(this)'>Match Number</th>";
+					}
+					else
+					{
+						tempTable = tempTable + "<td>" + tableContents[j][k] + "</td>";	
+					}
 				}
-				tableDOM.innerHTML = tableDOM.innerHTML + "</tr>";
+				tempTable = tempTable + "</tr>";
 			}
+			tableDOM.innerHTML = tableDOM.innerHTML + tempTable;
 		}
 		
 		var compare = function(a, b) 
