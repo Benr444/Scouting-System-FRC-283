@@ -1,15 +1,21 @@
 <html>
 	<head>
-		<title>	RED ALLIANCE	</title>
-		
+		<title>RED ALLIANCE MASTER</title>
+		<u>Red Alliance Data Analysis</u>
 		
 		
 	</head>
 	<body>
+		<br>
+		<br>
+		
 		<div><b>Upload .csv Files: <b></b></div>
 		<input id='fileIn' type='file' multiple accept='.csv'></input>
 		<button onClick="importData()">Submit</button>
-	
+		
+		<br>
+		<br>
+		
 		<table id='allDataTable' border='5'>
 			<tr>
 			 	<th onClick='sortTable(this)'>Match Number</th>
@@ -126,8 +132,14 @@
 				tableContents.push(row);
 				row = [];
 			}
-			
-			tableContents = tableContents.sort(compare)
+			for(l = 0; l < tableContents.length; l++)
+			{
+				for(f = 0; f < tableContents[l].length; f++)
+				{
+					tableContents[l][f] = parseFloat(tableContents[l][f]);
+				}
+			}
+			//tableContents = tableContents.sort(compare)
 			//alert("The sorted table is: \n" + tableContents);
 			
 			//Print sorted data:
@@ -165,7 +177,7 @@
 		{
 			a = a[colIndex];
 			b = b[colIndex];
-			if ((parseFloat(a) == "NaN") && (parseFloat(b) != "NaN")) //if b IS a number and a is a string
+			/*if ((parseFloat(a) == "NaN") && (parseFloat(b) != "NaN")) //if b IS a number and a is a string
 			{
 				return -1; //a less than b
 			}
@@ -174,7 +186,15 @@
 				return 1; //a greater than b
 			}
 			else if ((parseFloat(a) == "NaN") && (parseFloat(b) == "NaN")) //If both are a string
+			{*/
+			if ((parseFloat(a) != "NaN") && (parseFloat(b) != "NaN"))
 			{
+				alert('COMPARING #s')
+				return (parseFloat(a) - parseFloat(b));
+			}
+			else //Neither a nor b is a string
+			{
+				alert("a: " + a + ", b:" + b + ", a<b: " + (a < b));
 				if (a < b) //If a is alphabetically first
 				{
 					return -1;
@@ -187,10 +207,6 @@
 				{
 					return 0;
 				}
-			}
-			else //Neither a nor b is a string
-			{
-				return (parseFloat(a) - parseFloat(b));
 			}
 			
 		};
