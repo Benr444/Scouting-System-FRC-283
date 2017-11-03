@@ -6,30 +6,98 @@
 		
 	</head>
 	<body>
+		<div><b>Upload .csv Files: <b></b></div>
+		<input id='fileIn' type='file' multiple accept='.csv'></input>
+		<button onClick="process();">Submit</button>
+	
 		<table id='GG table' border='5'>
 			<tr>
-			 	<th onClick='mySort(this)'>Team Number</th>
 			 	<th onClick='mySort(this)'>Match Number</th>
+			 	<th onClick='mySort(this)'>Team Name</th>
+			 	<th onClick='mySort(this)'>Team Number</th>
+			 	<th>Alliance</th>
 			</tr>
 			<tr>
-			 	<td id='1'>283</td>
-			 	<td id='11'>1</td>
+			 	<td>1</td>
+			 	<td>Dan</td>
+			 	<td>283</td>
+			 	<td>Red</td>
 			</tr>
 			<tr>
-			 	<td id='2'>281</td>
-			 	<td id='22'>3</td>
+			 	<td>3</td>
+			 	<td>Ben</td>
+			 	<td>281</td>
+			 	<td>Blue</td>
 			</tr>
 			<tr>
-			 	<td id='3'>2830</td>
-			 	<td id='33'>90</td>
+			 	<td>90</td>
+			 	<td>Tim</td>
+			 	<td>2830</td>
+			 	<td>Blue</td>
 			</tr>
 		</table>
 	</body>
 	<script>
+		var importedData = "";
+		function process()
+		{
+			alert("Process called");
+			var files = document.getElementById("fileIn").files; //Get the file objects submitted in the form
+			var v = 0; //Index of file processing
+			var header = ""; //The header that should be shared by all the files
+			var fr = new FileReader(); //File reader for getting the contents of the files
+			fr.onload = function()
+			{
+				console.log("CSVImport: Now reading file index " + v);
+				if (header == "") //If no header has been defined yet
+				{
+					header = fr.result.split("\n", 1)[0]; //Returns the first row of the file
+					console.log("CSVImport: Header is defined as: " + header);
+					importedData = importedData + header;
+				}
+				if (header === fr.result.split("\n", 1)[0]) //Compare this file's header to the actual header
+				{
+					//If they match
+					var newData = fr.result.slice(fr.result.indexOf('\n'), (fr.result.length - 1))
+					importedData = importedData + newData; 
+					console.log("CSVImport: A file at index " + v + " contained: " + newData); 
+					if ((v + 1) < files.length) //If there's more to read
+					{
+						v++;
+						fr.readAsText(files[v]) //Read the next file
+					}
+					else //Otherwise
+					{
+						stringToTable(importedData); //Turn our data into a tableobject
+					}
+				}
+				else 
+				{
+					//If they don't match
+					throw "CSVImport: The header of file index of " 
+					+ v + "  does not match with the first one! \n header    :\' " + header + "\'\n fileheader:\' "
+					+ fr.result.split("\n", 1)[0] + "\'"
+					+ "headerType: " + typeof header + " fileheaderType " + typeof header;
+				}
+			};
+			fr.readAsText(files[v]); //Read the first file
+		}
+		
+		function stringToTable(inputStr) //Takes raw .csv data and turns it into a table-formatted array
+		{
+			console.log("CSVImport: Now converting string to table...")
+			var rows = inputStr.split('\n') //Rows are delimited by new lines
+			var tableArray = []; //This array is formated to be easily put into html
+			for (l = 1; l < rows.length; l++)
+			{
+				
+			}
+		}
+		
 		var colIndex = null
 		function mySort(column)
 		{
-			alert("Starting to sort");
+			//alert("Starting to sort");
 			var tableDOM = document.getElementById('GG table');	
 			var tableContents = [];
 			for(g = 0; g < tableDOM.children[0].children.length; g++) //FOR EACH ROW
@@ -41,7 +109,7 @@
 					if (tableDOM.children[0].children[g].children[h].innerHTML == column.innerHTML)
 					{
 						colIndex = h;
-						alert("The column to be sorted was found in index = " + colIndex);
+						//alert("The column to be sorted was found in index = " + colIndex);
 					}
 				}
 				tableContents.push(row);
@@ -49,7 +117,7 @@
 			}
 			
 			tableContents = tableContents.sort(compare)
-			alert("The sorted table is: \n" + tableContents);
+			//alert("The sorted table is: \n" + tableContents);
 			var tempTable = "";
 			for(j = 0; j < tableContents.length; j++)
 			{
@@ -58,8 +126,7 @@
 				{
 					if(j == 0)
 					{
-					 	tempTable = tempTable + "<th onClick='mySort(this)'>Team Number</th>";
-					 	tempTable = tempTable + "<th onClick='mySort(this)'>Match Number</th>";
+					 	tempTable = tempTable + "<th onClick='mySort(this)'>" + tableContents[j][k] + "</th>";
 					}
 					else
 					{
@@ -68,7 +135,7 @@
 				}
 				tempTable = tempTable + "</tr>";
 			}
-			tableDOM.innerHTML = tableDOM.innerHTML + tempTable;
+			tableDOM.innerHTML = tempTable;
 		}
 		
 		var compare = function(a, b) 
