@@ -115,8 +115,9 @@
 		var colIndex = null
 		function sortTable(column)
 		{
+			var headers = []; // Labels for each column
 			var tableDOM = document.getElementById('allDataTable');	
-			var tableContents = [];
+			var tableContents = []; //rows other than header row
 			for(g = 0; g < tableDOM.children[0].children.length; g++) //FOR EACH ROW
 			{
 				var row = [];
@@ -129,17 +130,24 @@
 						//alert("The column to be sorted was found in index = " + colIndex);
 					}
 				}
-				tableContents.push(row);
+				if(g == 0) //if in the header row
+				{
+					headers = row;	
+				}
+				else //if anywhere but the header row
+				{
+					tableContents.push(row);
+				}
 				row = [];
 			}
-			for(l = 0; l < tableContents.length; l++)
+			/*for(l = 0; l < tableContents.length; l++)
 			{
 				for(f = 0; f < tableContents[l].length; f++)
 				{
-					tableContents[l][f] = parseFloat(tableContents[l][f]);//W
+					tableContents[l][f] = parseFloat(tableContents[l][f]);
 				}
-			}
-			//tableContents = tableContents.sort(compare)
+			}*/
+			tableContents = tableContents.sort(compare)
 			//alert("The sorted table is: \n" + tableContents);
 			
 			//Print sorted data:
@@ -148,7 +156,19 @@
 			{
 				console.log("    Row " + d + ": " + tableContents[d])
 			}
-			writeTable(tableContents);
+			
+			var tempTable = [];
+			tempTable.push(headers);
+			for (j = 0; j < tableContents.length; j++)
+			{
+				tempTable.push(tableContents[j]);
+			}
+			console.log("TABLE STRUCTURE:");
+			for (d = 0; d < tempTable.length; d++)
+			{
+				console.log("    Row " + d + ": " + tempTable[d])
+			}
+			writeTable(tempTable);
 		}
 		
 		function writeTable(tableArray) //Updates the table to the given tableArray
@@ -157,7 +177,7 @@
 			for(j = 0; j < tableArray.length; j++)
 			{
 				tempTable = tempTable + "<tr>";
-				for(k = 0; k <tableArray[0].length; k++)
+				for(k = 0; k <tableArray[j].length; k++)
 				{
 					if(j == 0)
 					{
@@ -177,24 +197,14 @@
 		{
 			a = a[colIndex];
 			b = b[colIndex];
-			/*if ((parseFloat(a) == "NaN") && (parseFloat(b) != "NaN")) //if b IS a number and a is a string
+			if (!isNaN(parseFloat(a)) && !isNaN(parseFloat(b)))
 			{
-				return -1; //a less than b
-			}
-			else if ((parseFloat(a) != "NaN") && (parseFloat(b) == "NaN")) //If a is a number but b is a string
-			{
-				return 1; //a greater than b
-			}
-			else if ((parseFloat(a) == "NaN") && (parseFloat(b) == "NaN")) //If both are a string
-			{*/
-			if ((parseFloat(a) != "NaN") && (parseFloat(b) != "NaN"))
-			{
-				alert('COMPARING #s')
 				return (parseFloat(a) - parseFloat(b));
 			}
-			else //Neither a nor b is a string
+			else //If a or be is a string
 			{
-				alert("a: " + a + ", b:" + b + ", a<b: " + (a < b));
+				a = a.toLowerCase();
+				b = b.toLowerCase();
 				if (a < b) //If a is alphabetically first
 				{
 					return -1;
