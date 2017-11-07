@@ -144,13 +144,6 @@
 				}
 				row = [];
 			}
-			/*for(l = 0; l < tableContents.length; l++)
-			{
-				for(f = 0; f < tableContents[l].length; f++)
-				{
-					tableContents[l][f] = parseFloat(tableContents[l][f]);
-				}
-			}*/
 			tableContents = tableContents.sort(compare)
 			//alert("The sorted table is: \n" + tableContents);
 			
@@ -185,10 +178,12 @@
 				{
 					if(j == 0)
 					{
+						tableArray[j][k] = tableArray[j][k].replace("@?$COMMA$?@", ",");
 					 	tempTable = tempTable + "<th onClick='sortTable(this)'>" + tableArray[j][k] + "</th>";
 					}
 					else
 					{
+						tableArray[j][k] = tableArray[j][k].replace("@?$COMMA$?@", ",");
 						tempTable = tempTable + "<td>" + tableArray[j][k] + "</td>";	
 					}
 				}

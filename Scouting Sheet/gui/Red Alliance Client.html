@@ -4,12 +4,6 @@
 	</head>
 	<body>
 		<br>
-		<br>
-		
-		<br>
-		<br>
-		
-		
 		<div class="tab">
 			<button class="tablinks" onClick="switchTab(matchForm)">Match Form</button>
 			<button class="tablinks" onClick="switchTab(pitForm)">Pit Form</button>
@@ -19,14 +13,11 @@
 			<form id='matchData' name='matchData' onSubmit='return false;'>
 				<fieldset>
 					<legend>Match Scout Data</legend>
-					Match Number: 
-					<input autofocus type='text' name='Match Number' class="formVar" required><br>
-					Team Name:
-					<input type='text' name='Team Name' class="formVar"><br>
-					Team Number:
-					<input type='text' class='formVar' name="Team Number" required><br>
-					<input type="radio" name="Color" class="formVar" value="red" required> Red<br>
-	 	 			<input type="radio" name="Color" value="blue" required> Blue<br>
+					Match Number: <input autofocus type="number" step="1" min="0" max="9999" name='Match Number' class="matchForm" required><br>
+					Team Name: <input type='text' name='Team Name' class="matchForm"><br>
+					Team Number: <input type="number" step="1" min="1" max="9999" class='matchForm' name="Team Number" required><br>
+					<input type="radio" name="Color" class="matchForm" value="Red" required> Red<br>
+	 	 			<input type="radio" name="Color" value="Blue" required> Blue<br>
 					<button onClick='generateMatchSheet();'>Finish</button>
 				</fieldset>
 			</form>
@@ -40,17 +31,18 @@
 			<input id='jpgU' type='file' ></input>
 			<button onClick="generatePitSheet(jpgU)">Upload</button>
 			<br>
+			Team Number: <input type="text" class="pitForm">
+			<br>
 			<br>
 			<a onClick="" download="pitData.csv" id="pitLink" href="" style="display: none">Download Pit Data</a>
 		</div>
 		
 		<script>
 			//TODO
-			//Unique ID
 			//Downloads on submit
 			function generateMatchSheet()
 			{
-				var form = document.getElementsByClassName("formVar");
+				var form = document.getElementsByClassName("matchForm");
 				//CES - Comma encoding system:
 					//Change all commas to '@?$COMMA$?@' on this end
 					//On the master end, transform them back
@@ -67,7 +59,6 @@
 							console.log("Looking at radio button " + (w + 1) + " of " + options.length);
 							if (options[w].checked == true)
 							{
-								console.log("wowie!1!");
 								formText = formText + options[w].value + ((i < form.length - 1) ? "," : ""); //No need to replace commas because we're not that dumb
 							}
 						}
@@ -86,6 +77,9 @@
 				//Encode into a file, then put that file as the download link
 				var file = new Blob([formHeader + formText], {type: "text/plain"});
 				document.getElementById("matchLink").href = window.URL.createObjectURL(file);
+				var idNum = Math.floor(Math.random() * 10000);
+				document.getElementById("matchLink").download = "matchData" + idNum + ".csv";
+				document.getElementById("matchLink").innerHTML = "Download Match Data " + idNum;
 				document.getElementById("matchLink").style.display = 'block';
 			}
 			
