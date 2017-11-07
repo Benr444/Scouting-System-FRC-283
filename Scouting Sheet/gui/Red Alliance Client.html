@@ -19,22 +19,25 @@
 					<input type="radio" name="Color" class="matchForm" value="Red" required> Red<br>
 	 	 			<input type="radio" name="Color" value="Blue" required> Blue<br>
 					<button onClick='generateMatchSheet();'>Finish</button>
+					<a onClick="document.getElementByI('matchData').reset();" download="matchData.csv" id="matchLink" href="" style="display: none">Download Match Data</a>
 				</fieldset>
 			</form>
 			<br>
 			<br>
-			<a onClick="document.forms['matchData'].reset();" download="matchData.csv" id="matchLink" href="" style="display: none">Download Match Data</a>
-		</div>
+			</div>
 		
 		<div id="pitForm" class="tabContent" style="display:none">
-			<div><b></b>Upload .jpg Files: <b></b></div>
-			<input id='jpgU' type='file' ></input>
-			<button onClick="generatePitSheet(jpgU)">Upload</button>
-			<br>
-			Team Number: <input type="text" class="pitForm">
-			<br>
-			<br>
-			<a onClick="" download="pitData.csv" id="pitLink" href="" style="display: none">Download Pit Data</a>
+			<form id='pitData' name='pitData' onSubmit='return false;'>
+				<fieldset>
+					<legend>Pit Scout Data</legend>
+					Image of Robot: <input id='jpgU' type='file' ></input><br>
+					Team Number: <input type="number" step="1" min="1" max="9999" class='pitform' name="Team Number" required><br>
+					Drivetrain: <input type="text" class="pitForm" required><br>
+					<button onClick="generatePitSheet(jpgU)">Finish</button>
+					<br>
+					<a onClick="document.getElementByI('pitData').reset();" download="pitData.csv" id="pitLink" href="" style="display: none">Download Pit Data</a>
+				</fieldset>
+			</form>
 		</div>
 		
 		<script>
@@ -65,7 +68,7 @@
 					}
 					else
 					{
-						formText = formText + form[i].value.replace(",", '@?$COMMA$?@') + ((i < form.length - 1) ? "," : ""); //Replace commas with the code, then Separate values with commas
+						formText = formText + form[i].value.replace(/[,]+/g, '@?$COMMA$?@') + ((i < form.length - 1) ? "," : ""); //Replace commas with the code, then Separate values with commas
 					}
 					formHeader = formHeader + form[i].name + ((i < form.length - 1) ? "," : ""); //The ternary operator cuts the comma off the last line
 					
@@ -86,15 +89,52 @@
 			
 			function generatePitSheet(element)
 			{
-				var file = element.files[0];
-				var fr = new FileReader();
-				fr.onloadend = function()
+				var file = element.files[0]; //Grab the one and only image allowed 
+				var fr = new FileReader(); //Generate a file reader
+				fr.onloadend = function() //Executes when file is read
 				{
-					var tFile = new Blob(["Robot Image\r\n" + fr.result], {type: "text/plain"});
-					document.getElementById("pitLink").href = window.URL.createObjectURL(tFile);
+					var form = document.getElementsByClassName("pitForm");
+					//CES - Comma encoding system:
+						//Change all commas to '@?$COMMA$?@' on this end
+						//On the master end, transform them back
+					var formText = fr.result.replace(/[,]+/g, '@?$COMMA$?@'); //For pit data, this is always the first column, take out the comma
+					var formHeader = "Robot Image,"; //Same as above
+					for (i = 0; i < form.length; i++)
+					{
+						console.log("form[" + i + "]: " + form[i].value + " type:" + form[i].type);
+						if (form[i].type == "radio")
+						{
+							var options = document.getElementsByName(form[i].name); //Get all elements with the chosen name
+							for (w = 0; w < options.length; w++) //Look for the one with checked=true
+							{
+								console.log("Looking at radio button " + (w + 1) + " of " + options.length);
+								if (options[w].checked == true)
+								{
+									formText = formText + options[w].value + ((i < form.length - 1) ? "," : ""); //No need to replace commas because we're not that dumb
+								}
+							}
+						}
+						else
+						{
+							formText = formText + form[i].value.replace(/[,]+/g, '@?$COMMA$?@') + ((i < form.length - 1) ? "," : ""); //Replace commas with the code, then Separate values with commas
+						}
+						formHeader = formHeader + form[i].name + ((i < form.length - 1) ? "," : ""); //The ternary operator cuts the comma off the last line
+						
+					}
+					formText = formText + "\r\n"; //Proper escaping
+					formHeader = formHeader + "\r\n"; //Proper escaping
+					console.log("The form contained the text: " + formText);
+					
+					//Encode into a file, then put that file as the download link
+					var file = new Blob([formHeader + formText], {type: "text/plain"});
+					document.getElementById("pitLink").href = window.URL.createObjectURL(file);
+					var idNum = Math.floor(Math.random() * 10000);
+					document.getElementById("pitLink").download = "pitData" + idNum + ".csv";
+					document.getElementById("pitLink").innerHTML = "Download Pit Data " + idNum;
 					document.getElementById("pitLink").style.display = 'block';
+					
 				}
-				fr.readAsDataURL(file);	
+				fr.readAsDataURL(file);	//Read the file
 			}
 			
 			function switchTab(identifier)
