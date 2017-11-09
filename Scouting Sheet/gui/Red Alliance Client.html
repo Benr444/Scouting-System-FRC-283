@@ -19,7 +19,7 @@
 					<input type="radio" name="Color" class="matchForm" value="Red" required> Red<br>
 	 	 			<input type="radio" name="Color" value="Blue" required> Blue<br>
 					<button onClick='generateMatchSheet();'>Finish</button>
-					<a onClick="document.getElementByI('matchData').reset();" download="matchData.csv" id="matchLink" href="" style="display: none">Download Match Data</a>
+					<a onClick="document.getElementById('matchData').reset();" download="matchData.csv" id="matchLink" href="" style="display: none">Download Match Data</a>
 				</fieldset>
 			</form>
 			<br>
@@ -32,10 +32,10 @@
 					<legend>Pit Scout Data</legend>
 					Image of Robot: <input id='jpgU' type='file' ></input><br>
 					Team Number: <input type="number" step="1" min="1" max="9999" class='pitform' name="Team Number" required><br>
-					Drivetrain: <input type="text" class="pitForm" required><br>
+					Drivetrain: <input name='Drivetrain' type="text" class="pitForm" required><br>
 					<button onClick="generatePitSheet(jpgU)">Finish</button>
 					<br>
-					<a onClick="document.getElementByI('pitData').reset();" download="pitData.csv" id="pitLink" href="" style="display: none">Download Pit Data</a>
+					<a onClick="document.getElementById('pitData').reset();" download="pitData.csv" id="pitLink" href="" style="display: none">Download Pit Data</a>
 				</fieldset>
 			</form>
 		</div>
@@ -97,7 +97,7 @@
 					//CES - Comma encoding system:
 						//Change all commas to '@?$COMMA$?@' on this end
 						//On the master end, transform them back
-					var formText = fr.result.replace(/[,]+/g, '@?$COMMA$?@'); //For pit data, this is always the first column, take out the comma
+					var formText = fr.result.replace(/[,]+/g, '@?$COMMA$?@') + ','; //For pit data, this is always the first column, take out the comma
 					var formHeader = "Robot Image,"; //Same as above
 					for (i = 0; i < form.length; i++)
 					{
