@@ -178,8 +178,8 @@
 				{
 					if(j == 0)
 					{
-						tableArray[j][k] = tableArray[j][k].replace(/[@?$COMMA$?@]+/g, ",");
-					 	tempTable = tempTable + "<th onClick='sortTable(this)'>" + tableArray[j][k] + "</th>";
+						tableArray[j][k] = tableArray[j][k].replace(/[@?$COMMA$?@]+/g, ","); //Test for image
+					 	tempTable = tempTable + "<th onClick='sortTable(this)'>" + tableArray[j][k] + "</th>"; 
 					}
 					else
 					{
