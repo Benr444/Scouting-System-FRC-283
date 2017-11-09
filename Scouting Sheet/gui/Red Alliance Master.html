@@ -39,15 +39,15 @@
 			 	<td>90</td>
 			 	<td>Tim</td>
 			 	<td>2830</td>
-			 	<td>Blue</td>
-			</tr>
+			 	<td></td>
+			 </tr>
 		</table>
 	</body>
 	<script>
 		//TODO
 		//Decode commas
 		//Toggleable editing
-	
+		
 		var importedData = "";
 		function importData()
 		{
@@ -178,13 +178,20 @@
 				{
 					if(j == 0)
 					{
-						tableArray[j][k] = tableArray[j][k].replace(/[@?$COMMA$?@]+/g, ","); //Test for image
-					 	tempTable = tempTable + "<th onClick='sortTable(this)'>" + tableArray[j][k] + "</th>"; 
+						tableArray[j][k] = tableArray[j][k].replace(/(\@\?\$COMMA\$\?\@)+/g, ","); //Test for image
+						tempTable = tempTable + "<th onClick='sortTable(this)'>" + tableArray[j][k] + "</th>"; 		
 					}
 					else
 					{
-						tableArray[j][k] = tableArray[j][k].replace(/[@?$COMMA$?@]+/g, ",");
-						tempTable = tempTable + "<td>" + tableArray[j][k] + "</td>";	
+						tableArray[j][k] = tableArray[j][k].replace(/(\@\?\$COMMA\$\?\@)+/g, ",");
+						if (tableArray[j][k].search("data:image/") != -1) //If the cell is an image
+						{
+							tempTable = tempTable + "<th onClick='/sortTable(this)'><img src=" + tableArray[j][k] + "></img></th>"
+						}
+						else
+						{
+							tempTable = tempTable + "<td>" + tableArray[j][k] + "</td>";	
+						}
 					}
 				}
 				tempTable = tempTable + "</tr>";
