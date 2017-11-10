@@ -145,7 +145,6 @@
 				row = [];
 			}
 			tableContents = tableContents.sort(compare)
-			//alert("The sorted table is: \n" + tableContents);
 			
 			//Print sorted data:
 			console.log("SORTED DATA:");
@@ -179,14 +178,29 @@
 					if(j == 0)
 					{
 						tableArray[j][k] = tableArray[j][k].replace(/(\@\?\$COMMA\$\?\@)+/g, ","); //Test for image
-						tempTable = tempTable + "<th onClick='sortTable(this)'>" + tableArray[j][k] + "</th>"; 		
+						if(tableArray[j + 1][k].search("data:image/") != -1)//if the header column is for pictures
+						{
+							tempTable = tempTable + "<th>" + tableArray[j][k] + "</th>";//don't  allow for sorting
+						}
+						else		//otherwise, continue as normal
+						{
+							tempTable = tempTable + "<th onClick='sortTable(this)'>" + tableArray[j][k] + "</th>"; 		
+						}
+						
 					}
 					else
 					{
 						tableArray[j][k] = tableArray[j][k].replace(/(\@\?\$COMMA\$\?\@)+/g, ",");
 						if (tableArray[j][k].search("data:image/") != -1) //If the cell is an image
 						{
-							tempTable = tempTable + "<th onClick='/sortTable(this)'><img src=" + tableArray[j][k] + "></img></th>"
+							var firstQuote = tableArray[j][k].indexOf('\"');//finds the image quote opening if there is one
+							if(firstQuote != -1)//if there is one
+							{
+								var secQuote = tableArray[j][k].indexOf('\"', firstQuote + 1); //search for the closing quote
+								tableArray[j][k] = tableArray[j][k].slice(firstQuote + 1, secQuote - 1);//take the image src instead of the quoted
+								alert("first: " + firstQuote + ", second: " + secQuote + ", string: " + tableArray[j][k]);
+							}
+							tempTable = tempTable + "<th><img src=" + tableArray[j][k] + "></img></th>";
 						}
 						else
 						{
@@ -197,6 +211,7 @@
 				tempTable = tempTable + "</tr>";
 			}
 			document.getElementById('allDataTable').innerHTML = tempTable;
+			//console.log(document.getElementsByClassName("image")[0].innerHTML);
 		}
 		
 		var compare = function(a, b) 
